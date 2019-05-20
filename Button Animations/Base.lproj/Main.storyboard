@@ -54,6 +54,18 @@
                                     <action selector="lastBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Y9E-OU-ruj"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V61-sT-QCL">
+                                <rect key="frame" x="137.5" y="191" width="139" height="47"/>
+                                <color key="backgroundColor" red="0.70686935740000001" green="0.89879399650000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="47" id="mKp-RP-8kl"/>
+                                    <constraint firstAttribute="width" constant="139" id="rzv-Uy-X1r"/>
+                                </constraints>
+                                <state key="normal" title="Pulse"/>
+                                <connections>
+                                    <action selector="pulseBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="X6H-UX-Nms"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -62,7 +74,9 @@
                             <constraint firstItem="U0O-iB-3Sw" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Imj-LL-WGD"/>
                             <constraint firstItem="Uhj-Hq-ZAb" firstAttribute="top" secondItem="van-aQ-lFZ" secondAttribute="bottom" constant="78.5" id="UFr-TV-h6T"/>
                             <constraint firstItem="Uhj-Hq-ZAb" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="ovp-ta-zTM"/>
+                            <constraint firstItem="U0O-iB-3Sw" firstAttribute="top" secondItem="V61-sT-QCL" secondAttribute="bottom" constant="54" id="p2x-2u-49v"/>
                             <constraint firstItem="van-aQ-lFZ" firstAttribute="top" secondItem="U0O-iB-3Sw" secondAttribute="bottom" constant="90.5" id="szY-Dr-1hE"/>
+                            <constraint firstItem="V61-sT-QCL" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="tSD-Bc-zk7"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
